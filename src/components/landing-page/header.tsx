@@ -78,8 +78,8 @@ const Header = () => {
         className="w-full flex gap-1
         justify-left items-center"
       >
-        <Image src={Logo} alt="Workspace Logo" width={40} height={40} />
-        <span className="font-semibold text-2xl">Workspace</span>
+        <Image src={Logo} alt="DocX Logo" width={40} height={40} />
+        <span className="font-semibold text-2xl">DocX</span>
       </Link>
       <NavigationMenu className="hidden md:block">
         <NavigationMenuList className="gap-6">

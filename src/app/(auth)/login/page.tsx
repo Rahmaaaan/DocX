@@ -64,7 +64,7 @@ const LoginPage = () => {
         >
           <Image
             src={Logo}
-            alt="workspace Logo"
+            alt="DocX Logo"
             width={50}
             height={50}
           />
@@ -72,7 +72,7 @@ const LoginPage = () => {
             className="font-semibold
           dark:text-white text-4xl first-letter:ml-2"
           >
-            Workspace
+            DocX
           </span>
         </Link>
         <FormDescription

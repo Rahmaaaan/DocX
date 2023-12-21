@@ -52,7 +52,7 @@ const HomePage = () => {
             bg-background
           "
           >
-            Get Workspace Free 🚀
+            Get DocX Free 🚀
           </Button>
         </div>
         <div
@@ -385,7 +385,7 @@ const HomePage = () => {
         </div>
       </section>
         <section className="pt-16 pb-6 text-center font-sans text-lg font-light	">
-            © <span className="font-medium">Workspace</span>. All rights reserved.
+            © <span className="font-medium">DocX</span>. All rights reserved.
         </section>
     </>
   );

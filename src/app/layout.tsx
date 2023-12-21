@@ -15,7 +15,7 @@ import db from "@/lib/supabase/db";
 const inter = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Workspace",
+  title: "DocX",
 };
 
 export default function RootLayout({

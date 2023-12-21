@@ -37,120 +37,120 @@ export const USERS = [
     name: "Anand Mahindra",
     description: "Chairman of Mahindra Group",
     message:
-      "Workspace has transformed the way we work. Our QA and development teams are on the same page, and our productivity has skyrocketed. It's a must-have tool.",
+      "DocX has transformed the way we work. Our QA and development teams are on the same page, and our productivity has skyrocketed. It's a must-have tool.",
   },
   {
     name: "Azim Premji",
     description: "Former Chairman of Wipro Limited",
     message:
-      "I was skeptical at first, but Workspace exceeded my expectations. Our project timelines have improved, and collaboration between teams is seamless.",
+      "I was skeptical at first, but DocX exceeded my expectations. Our project timelines have improved, and collaboration between teams is seamless.",
   },
   {
     name: "Ajay Banga",
     description: "Former CEO of Mastercard & President of the World Bank",
     message:
-      "Workspace made writing and running tests a breeze. Our team's productivity has never been higher, and we're delivering more reliable software.",
+      "DocX made writing and running tests a breeze. Our team's productivity has never been higher, and we're delivering more reliable software.",
   },
   {
     name: "Bill Gates",
     description: "Co-founder & Former CEO of Microsoft",
     message:
-      "Workspace has streamlined our testing process and brought our teams closer. We're more efficient and deliver better results.",
+      "DocX has streamlined our testing process and brought our teams closer. We're more efficient and deliver better results.",
   },
   {
     name: "Cyrus Poonawalla",
     description: "Founder of Serum Institute of India",
     message:
-      "Thanks to Workspace, we've eliminated testing bottlenecks. Our developers and testers collaborate effortlessly, resulting in quicker releases.",
+      "Thanks to DocX, we've eliminated testing bottlenecks. Our developers and testers collaborate effortlessly, resulting in quicker releases.",
   },
   {
     name: "Elon Musk",
     description:
       "CEO of Tesla Motors, SpaceX, Neuralink, and The Boring Company",
     message:
-      "Workspace has improved our development process significantly. We now have more time for innovation, and our products are of higher quality.",
+      "DocX has improved our development process significantly. We now have more time for innovation, and our products are of higher quality.",
   },
   {
     name: "Gautam Adani",
     description: "Chairman of Adani Group",
     message:
-      "Workspace has been a game-changer for our team. With its reliable end-to-end testing, we catch bugs early, leading to faster development cycles and improved collaboration.",
+      "DocX has been a game-changer for our team. With its reliable end-to-end testing, we catch bugs early, leading to faster development cycles and improved collaboration.",
   },
   {
     name: "Jeff Bezos",
     description: "Former CEO of Amazon",
     message:
-      "I used to spend hours debugging frontend issues, but Workspace simplified everything. Now, I'm more productive, and my colleagues can trust our code thanks to Workspace.",
+      "I used to spend hours debugging frontend issues, but DocX simplified everything. Now, I'm more productive, and my colleagues can trust our code thanks to DocX.",
   },
   {
     name: "Kumar Mangalam Birla",
     description: "Chairman of Aditya Birla Group",
     message:
-      "Workspace's user-friendly interface made it easy for our non-technical team members to contribute to testing. Our workflow is much more efficient now.",
+      "DocX user-friendly interface made it easy for our non-technical team members to contribute to testing. Our workflow is much more efficient now.",
   },
   {
     name: "Lary page",
     description: "Co-founder of Google (Alphabet Inc.)",
     message:
-      "Thanks to Workspace, our testing process is now a seamless part of our development cycle. Our teams collaborate effortlessly.",
+      "Thanks to DocX, our testing process is now a seamless part of our development cycle. Our teams collaborate effortlessly.",
   },
   {
     name: "Mukesh Ambani",
     description:
       "Chairman and Managing Director of Reliance Industries Limited",
     message:
-      "Our team's collaboration improved immensely with Workspace. We catch issues early, leading to less friction and quicker feature deployments.",
+      "Our team's collaboration improved immensely with DocX. We catch issues early, leading to less friction and quicker feature deployments.",
   },
   {
     name: "Mark Zuckerberg",
     description: "CEO of Meta",
     message:
-      "Workspace's robust testing capabilities have elevated our development standards. We work more harmoniously, and our releases are more reliable.",
+      "DocX robust testing capabilities have elevated our development standards. We work more harmoniously, and our releases are more reliable.",
   },
   {
     name: "Narendra Modi",
     description: "Prime Minister of India",
     message:
-      "Workspace has helped us maintain high standards of quality. Our team's collaboration has improved, resulting in faster development cycles.",
+      "DocX has helped us maintain high standards of quality. Our team's collaboration has improved, resulting in faster development cycles.",
   },
   {
     name: "N. R. Narayana Murthy",
     description: "Co-founder of Infosys",
     message:
-      "Workspace is a lifesaver for our cross-functional teams. We're more productive, and there's a shared sense of responsibility for product quality.",
+      "DocX is a lifesaver for our cross-functional teams. We're more productive, and there's a shared sense of responsibility for product quality.",
   },
 
   {
     name: "Ratan Tata",
     description: "Former Chairman of Tata Group",
     message:
-      "Workspace is a powerful tool that improved our productivity and collaboration. It's now an integral part of our development process.",
+      "DocX is a powerful tool that improved our productivity and collaboration. It's now an integral part of our development process.",
   },
 
   {
     name: "Satya Nadella",
     description: "CEO of Microsoft",
     message:
-      "Workspace's user-friendly interface and detailed reporting have made testing a breeze. Our team's productivity is at an all-time high.",
+      "DocX's user-friendly interface and detailed reporting have made testing a breeze. Our team's productivity is at an all-time high.",
   },
   {
     name: "Sam Altman",
     description: "CEO of OpenAI",
     message:
-      "Workspace is a fantastic tool that has revolutionized our workflow. Our productivity and collaboration have reached new heights.",
+      "DocX is a fantastic tool that has revolutionized our workflow. Our productivity and collaboration have reached new heights.",
   },
   {
     name: "Sundar Pichai",
     description: "CEO of Alphabet Inc. (Google)",
     message:
-      "We saw immediate benefits in terms of productivity and collaboration after adopting Workspace. It's an essential tool for our development workflow.",
+      "We saw immediate benefits in terms of productivity and collaboration after adopting DocX. It's an essential tool for our development workflow.",
   },
 
   {
     name: "Tim Cook",
     description: "CEO of Apple Inc.",
     message:
-      "Workspace has been a game-changer for us. Our productivity and collaboration have improved significantly, leading to better software.",
+      "DocX has been a game-changer for us. Our productivity and collaboration have improved significantly, leading to better software.",
   },
 ];
 
