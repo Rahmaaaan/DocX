@@ -85,32 +85,28 @@ STRIPE_WEBHOOK_SECRET=
     NEXT_PUBLIC_SITE_URL=http://localhost:3000/
     ```
 
-**NOTE**: Retrieve Lost Keys
-
-In case of missing security keys:
-
-Go to the "Settings" tab and navigate to the "Database" section in the Supabase dashboard. You'll find all the necessary security keys there.
+**NOTE**: In case of missed page of security keys in supabase. Go to the "Settings" tab and navigate to the "Database" section. You'll find all the necessary security keys there.
 
 ### 6. Start the Web Server
 
 Run the following command in the terminal:
 
-    ```bash
-    npm run dev
-    ```
+```bash
+npm run dev
+```
 
 Once the server starts, access DocX via the provided link in your web browser.
 
 ### 7. Email Templates
 
-    - In Supabase project dashboard, navigate to Authentication > Email templates.
-    - Paste the content of [Email template](./emailTemplate.html) into the email template area.
-    - Save the template.
+- In Supabase project dashboard, navigate to Authentication > Email templates.
+- Paste the content of [Email template](./emailTemplate.html) into the email template area.
+- Save the template.
 
 ### 8. Buckets
 
-    - In the Supabase dashboard, go to the Storage tab.
-    - Create three buckets manually: "avatars," "workspace-logos," and "file-banners."
+- In the Supabase dashboard, go to the Storage tab.
+- Create three buckets manually: "avatars," "workspace-logos," and "file-banners."
 
 ### 9. Policy Setup for Storage Buckets
 
@@ -135,9 +131,9 @@ Once the server starts, access DocX via the provided link in your web browser.
 
 ### 10. SQL Editor
 
-    - In the Supabase dashboard, go to the SQL editor tab.
-    - Click on "Stripe Subscription" in the sidebar.
-    - Paste the content of [Stripe Subscription SQL](./StripeSubscription.sql) into the editor area and run it.
+- In the Supabase dashboard, go to the SQL editor tab.
+- Click on "Stripe Subscription" in the sidebar.
+- Paste the content of [Stripe Subscription SQL](./StripeSubscription.sql) into the editor area and run it.
 
 ### 11. Stripe Payment Setup
 
@@ -174,15 +170,15 @@ Once the server starts, access DocX via the provided link in your web browser.
 
 ### 12. Stripe CLI Installation (Windows)
 
-    For Windows users, follow these steps to install the Stripe CLI:
+For Windows users, follow these steps to install the Stripe CLI:
 
-    - Visit [scoop.sh](https://scoop.sh/) and follow the instructions to install the Scoop package manager. which has around two commands to be run on terminal
-    - After installing Scoop, proceed with the Stripe CLI installation from the [Stripe CLI GitHub repository](https://github.com/stripe/stripe-cli?tab=readme-ov-file) by selecting the Windows option.
-    - Copy the provided commands and paste them into your terminal to install the Stripe CLI.
+- Visit [scoop.sh](https://scoop.sh/) and follow the instructions to install the Scoop package manager. which has around two commands to be run on terminal
+- After installing Scoop, proceed with the Stripe CLI installation from the [Stripe CLI GitHub repository](https://github.com/stripe/stripe-cli?tab=readme-ov-file) by selecting the Windows option.
+- Copy the provided commands and paste them into your terminal to install the Stripe CLI.
 
 ### 13. Product Creation
 
-    - In the Stripe dashboard, navigate to the "Product" section under the product catalog.
-    - Create product names and pricing for your offerings.
+- In the Stripe dashboard, navigate to the "Product" section under the product catalog.
+- Create product names and pricing for your offerings.
 
 Follow these steps carefully. If you encounter any issues during installation, refer to the error messages or reach out to our support team for assistance. Enjoy using Taskflow for development and testing purposes!
