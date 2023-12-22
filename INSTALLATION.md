@@ -29,39 +29,39 @@ cd projectname
 
 Use npm to install necessary project dependencies
 
-    ```bash
-    npm install
-    ```
+```bash
+npm install
+```
 
 ### 4. Set Up the .env File
 
-    Create a `.env` file in your root folder and add the following keys
+Create a `.env` file in your root folder and add the following keys
 
-    ```bash
-    # Database Configuration
-    DATABASE_URL=
-    NEXT_PUBLIC_SUPABASE_URL=
-    NEXT_PUBLIC_SUPABASE_ANON_KEY=
-    SERVICE_ROLE_KEY=
-    PW=
-    NEXT_PUBLIC_SITE_URL=
+```bash
+# Database Configuration
+DATABASE_URL=
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+SERVICE_ROLE_KEY=
+PW=
+NEXT_PUBLIC_SITE_URL=
 
-    # Stripe Configuration
-    NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
-    STRIPE_SECRET_KEY=
-    STRIPE_WEBHOOK_SECRET=
-    ```
+# Stripe Configuration
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOK_SECRET=
+```
 
 ### 5. Configuring the Database
 
 1. **Register for a Supabase Account**
 
-    Sign up for a Supabase account at [Supabase](https://supabase.com) if you don't have one yet.
+Sign up for a Supabase account at [Supabase](https://supabase.com) if you don't have one yet.
 
 2. **Create a Project**
 
-    - Log in and create a new project, providing project details such as the project name and the closest region (e.g., "south-asia").
-    - **Before creating the project**, ensure you paste the project password into the `.env` file under the `PW` section.
+- Log in and create a new project, providing project details such as the project name and the closest region (e.g., "south-asia").
+- Before creating the project, ensure you paste the project password into the `.env` file under the `PW` section.
 
 3. **Retrieve Keys from Supabase**
 
