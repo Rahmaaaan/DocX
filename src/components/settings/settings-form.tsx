@@ -224,7 +224,7 @@ const SettingsForm = () => {
         />
         {subscription?.status !== 'active' && (
           <small className="text-muted-foreground">
-            To customize your workspace, you need to be on a Pro Plan
+            To customize your workspace, you need to be on a Premium Plan
           </small>
         )}
       </div>
@@ -422,7 +422,7 @@ const SettingsForm = () => {
         <Separator />
         <p className="text-muted-foreground">
           You are currently on a{' '}
-          {subscription?.status === 'active' ? 'Pro' : 'Free'} Plan
+          {subscription?.status === 'active' ? 'Premium' : 'Basic'} Plan
         </p>
         <Link
           href="/"
