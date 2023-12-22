@@ -29,8 +29,10 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <AppStateProvider>
             <SupabaseUserProvider>
+              <SocketProvider>
                 {children}
                 <Toaster />
+              </SocketProvider>
             </SupabaseUserProvider>
           </AppStateProvider>
         </ThemeProvider>
