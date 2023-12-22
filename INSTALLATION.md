@@ -15,13 +15,13 @@ Before you begin, ensure your system meets these requirements:
 
 Open your terminal and clone the DocX repository using this command
 
-    ``` bash
+    ```bash
     git clone https://github.com/username/projectname.git
     ```
 
 ### 2. Move into the Project Directory
 
-    ```bash
+    ``` bash
     cd projectname
     ```
 
