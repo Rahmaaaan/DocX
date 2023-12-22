@@ -156,7 +156,7 @@ export const USERS = [
 
 export const PRICING_CARDS = [
   {
-    planType: "Free Plan",
+    planType: "Basic Plan",
     price: "0",
     description: "Begin with essentials for your team",
     highlightFeature: "Unlock the essentials",
@@ -169,24 +169,14 @@ export const PRICING_CARDS = [
   },
 
   {
-    planType: "Basic Plan",
+    planType: "Premium Plan",
     price: "499",
     description: "Take your team's productivity to the next level!",
     highlightFeature: "Pay just ₹41/month",
     freatures: [
-      "All Free Plan features",
-      "Extend to a 1-year page history",
-      "Invite up to 7 guests",
-    ],
-  },
-  {
-    planType: "Premium Plan",
-    price: "999",
-    description: "Empower your team with premium tools and support!",
-    highlightFeature: "Pay just ₹83/month",
-    freatures: [
-      "All Basic Plan features",
-      "Invite up to 15 guests",
+      "All Basic plan features",
+      "Page history upto 1-year",
+      "Invite up to 5 guests",
       "Access enhanced support",
     ],
   },
@@ -194,8 +184,7 @@ export const PRICING_CARDS = [
 
 export const PRICING_PLANS = {
   prePlan: "Premium Plan",
-  basicPlan: "Basic Plan",
-  freeplan: "Free Plan",
+  basicplan: "Basic Plan",
 };
 
 export const MAX_FOLDERS_FREE_PLAN = 3;

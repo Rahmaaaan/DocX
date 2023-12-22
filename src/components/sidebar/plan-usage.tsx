@@ -49,7 +49,7 @@ const PlanUsage: React.FC<PlanUsageProps> = ({
         items-center
         "
           >
-            <div>Free Plan</div>
+            <div>Basic Plan</div>
             <small>{usagePercentage.toFixed(0)}% / 100%</small>
           </div>
         </div>

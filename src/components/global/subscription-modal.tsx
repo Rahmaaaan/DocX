@@ -58,14 +58,14 @@ const SubscriptionModal: React.FC<SubscriptionModalProps> = ({ products }) => {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       {subscription?.status === "active" ? (
-        <DialogContent>Already on a paid plan!</DialogContent>
+        <DialogContent>Already on a Premium plan!</DialogContent>
       ) : (
         <DialogContent>
           <DialogHeader>
             <DialogTitle>Upgrade to Unlock Exclusive Features</DialogTitle>
           </DialogHeader>
           <DialogDescription>
-            Upgrade to <span className="font-extrabold">Basic Plan & Premium Plan</span> for
+            Upgrade to <span className="font-extrabold">Premium Plan</span> for
             exclusive features that enhance your experience.
           </DialogDescription>
           {products.length
@@ -75,7 +75,6 @@ const SubscriptionModal: React.FC<SubscriptionModalProps> = ({ products }) => {
                   flex
                   justify-between
                   items-center
-                  pt-3 pb-2
                   "
                   key={product.id}
                 >

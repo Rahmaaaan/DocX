@@ -347,8 +347,6 @@ const HomePage = () => {
                   >
                     {card.planType === PRICING_PLANS.prePlan
                       ? "Go Premium"
-                      : card.planType === PRICING_PLANS.basicPlan
-                      ? "Upgrade to Basic"
                       : "Get Started"}
                   </Button>
                 </CardContent>
