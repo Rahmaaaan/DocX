@@ -1,1 +1,10 @@
 
+stripe listen --forward-to localhost:3000/api/webhook
+
+
+NEXT_PUBLIC_SITE_URL=http://localhost:3000/
+
+
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_51OQ9RcSAh2Pje4s0VoOetKkBrIF3fuvzL7jD5KcfyqO9CsOZLNmwyJ9CXnDP3XteKaKF0o0QzEXUWWMClmskbHfv001ZojakTH
+STRIPE_SECRET_KEY=sk_test_51OQ9RcSAh2Pje4s0nwLrN5Zds3fzXeOK0ahQMTiaWBbaIxvOQXu9Ueh9xSzs0kxpAeTAzIs5Zxdbt7OugBkBYKZf00mQVx6enV
+STRIPE_WEBHOOK_SECRET=whsec_08d04ec1c2629faf5368eb004c2b505157da546e38413eda5d923c7eeff1bd8d
