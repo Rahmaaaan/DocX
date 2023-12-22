@@ -65,10 +65,10 @@ const SubscriptionModal: React.FC<SubscriptionModalProps> = ({ products }) => {
       ) : (
         <DialogContent>
           <DialogHeader>
-            <DialogTitle>Upgrade to a Pro Plan</DialogTitle>
+            <DialogTitle>Upgrade to a Higher plans</DialogTitle>
           </DialogHeader>
           <DialogDescription>
-            To access Pro features you need to have a paid plan.
+            To access exclusive features you need to have a higher plan.
           </DialogDescription>
           {products.length
             ? products.map((product) => (
@@ -77,6 +77,7 @@ const SubscriptionModal: React.FC<SubscriptionModalProps> = ({ products }) => {
                   flex
                   justify-between
                   items-center
+                  pt-2 pb-2
                   "
                   key={product.id}
                 >
