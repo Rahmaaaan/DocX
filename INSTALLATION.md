@@ -13,7 +13,7 @@ Before you begin, ensure your system meets these requirements:
 
 ### 1. Clone the Repository
 
-    Open your terminal and clone the DocX repository using this command
+Open your terminal and clone the DocX repository using this command
 
     ```bash
     git clone https://github.com/username/projectname.git
@@ -27,7 +27,7 @@ Before you begin, ensure your system meets these requirements:
 
 ### 3. Install Dependencies
 
-    Use npm to install necessary project dependencies
+Use npm to install necessary project dependencies
 
     ```bash
     npm install
