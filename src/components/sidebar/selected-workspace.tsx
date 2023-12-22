@@ -23,7 +23,7 @@ const SelectedWorkspace: React.FC<SelectedWorkspaceProps> = ({
         .getPublicUrl(workspace.logo)?.data.publicUrl;
       setWorkspaceLogo(path);
     }
-  }, [workspace]);
+  }, [supabase.storage, workspace]);
   return (
     <Link
       href={`/dashboard/${workspace.id}`}
