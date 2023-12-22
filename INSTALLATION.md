@@ -15,15 +15,15 @@ Before you begin, ensure your system meets these requirements:
 
 Open your terminal and clone the DocX repository using this command
 
-    ```bash
-    git clone https://github.com/username/projectname.git
-    ```
+```bash
+git clone https://github.com/username/projectname.git
+```
 
 ### 2. Move into the Project Directory
 
-    ``` bash
-    cd projectname
-    ```
+``` bash
+cd projectname
+```
 
 ### 3. Install Dependencies
 
