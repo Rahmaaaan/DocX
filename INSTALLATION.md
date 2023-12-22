@@ -56,12 +56,12 @@ STRIPE_WEBHOOK_SECRET=
 
 1. **Register for a Supabase Account**
 
-Sign up for a Supabase account at [Supabase](https://supabase.com) if you don't have one yet.
+    Sign up for a Supabase account at [Supabase](https://supabase.com) if you don't have one yet.
 
 2. **Create a Project**
 
-- Log in and create a new project, providing project details such as the project name and the closest region (e.g., "south-asia").
-- Before creating the project, ensure you paste the project password into the `.env` file under the `PW` section.
+    - Log in and create a new project, providing project details such as the project name and the closest region (e.g., "south-asia").
+    - Before creating the project, ensure you paste the project password into the `.env` file under the `PW` section.
 
 3. **Retrieve Keys from Supabase**
 
@@ -85,21 +85,21 @@ Sign up for a Supabase account at [Supabase](https://supabase.com) if you don't 
     NEXT_PUBLIC_SITE_URL=http://localhost:3000/
     ```
 
-**NOTE : Retrieve Lost Keys**
+**NOTE**: Retrieve Lost Keys
 
-    In case of missing security keys:
+In case of missing security keys:
 
-    Go to the "Settings" tab and navigate to the "Database" section in the Supabase dashboard. You'll find all the necessary security keys there.
+Go to the "Settings" tab and navigate to the "Database" section in the Supabase dashboard. You'll find all the necessary security keys there.
 
 ### 6. Start the Web Server
 
-    Run the following command in the terminal:
+Run the following command in the terminal:
 
     ```bash
     npm run dev
     ```
 
-    Once the server starts, access DocX via the provided link in your web browser.
+Once the server starts, access DocX via the provided link in your web browser.
 
 ### 7. Email Templates
 
