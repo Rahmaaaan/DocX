@@ -149,7 +149,7 @@ const Header = () => {
             <NavigationMenuContent>
               <ul className="grid w-[400px] gap-3 p-4  md:grid-row-2  ">
                 <ListItem title="Premium Plan" href={"#"}>
-                  Elevate your team's productivity to new heights!
+                  Elevate your team&apos;s productivity to new heights!
                 </ListItem>
                 <ListItem title={"Basic Plan"} href={"#"}>
                   Ideal for teams taking their first steps.
