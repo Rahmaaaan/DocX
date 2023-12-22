@@ -172,7 +172,7 @@ export const PRICING_CARDS = [
     planType: "Basic Plan",
     price: "499",
     description: "Take your team's productivity to the next level!",
-    highlightFeature: "Pay just ₹41/month (billed annually)",
+    highlightFeature: "Pay just ₹41/month",
     freatures: [
       "All Free Plan features",
       "Extend to a 1-year page history",
@@ -183,7 +183,7 @@ export const PRICING_CARDS = [
     planType: "Premium Plan",
     price: "999",
     description: "Empower your team with premium tools and support!",
-    highlightFeature: "Pay just ₹83/month (billed annually)",
+    highlightFeature: "Pay just ₹83/month",
     freatures: [
       "All Basic Plan features",
       "Invite up to 15 guests",
@@ -192,6 +192,10 @@ export const PRICING_CARDS = [
   },
 ];
 
-export const PRICING_PLANS = { prePlan: "Premium Plan", basicPlan: "Basic Plan", freeplan: "Free Plan" };
+export const PRICING_PLANS = {
+  prePlan: "Premium Plan",
+  basicPlan: "Basic Plan",
+  freeplan: "Free Plan",
+};
 
-export const MAX_FOLDERS_FREE_PLAN = 5;
+export const MAX_FOLDERS_FREE_PLAN = 3;
