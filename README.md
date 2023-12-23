@@ -1,15 +1,16 @@
 # DocX
 
-<!-- Taskflow is a versatile productivity app that integrates various functionalities within a unified platform, catering to individual, team, and business workflows. With an array of features, it offers a seamless experience for creating documents, wikis, project boards, notes, and more. -->
+[DocX](https://doc-x-neon.vercel.app/) is an innovative document management platform designed to revolutionize the way teams collaborate and manage their documents. It offers a comprehensive workspace and collaboration environment tailored for seamless teamwork and efficient document handling.
 
 ## Key Features
 
-<!-- 1. Efficient Data Management
-2. Easy Sharing and Customizable Interface
-3. Organized Information Hierarchy
-4. Security and Access Control
-5. Versatile Accessibility
-6. Recovery Capabilities -->
+1. Efficient Document Handling & Data Management
+2. Real-Time Collaboration
+3. Easy Sharing and Customizable Interface
+4. Organized Information Hierarchy
+5. Security and Access Control
+6. Monetization Features
+7. Recovery Capabilities
 
 ## Technologies Used
 
@@ -48,11 +49,34 @@ To effectively utilize the platform, follow these steps:
 
 ![Dashboard](./public/assests/Dashboard.jpg)
 
-![Stripe](./public/assests)
+![Stripe](./public/assests/Payment.jpg)
 
 ## Contributing
 
-For contribution instructions, refer to the [Contribution Guide](./CONTRIBUTION.md).
+Contributions to DocX are welcome! To contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+3. Make changes and commit them:
+
+   ```bash
+   git commit -m "Add your commit message here"
+   ```
+
+4. Push your changes to your branch:
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+5. Create a pull request on the main repository.
+
+Please follow the project's coding guidelines and maintain a clean commit history.
 
 ## License
 
